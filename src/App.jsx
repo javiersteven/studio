@@ -1,7 +1,9 @@
-import { Article } from './components/article'
+import { Articles } from './components/articles'
 import { Header } from './components/header'
 import { Footer } from './components/footer'
 import { Banner } from './components/banner'
+import { AboutMe } from './components/aboutMe'
+import { Projects } from './components/projects'
 
 function App() {
   return (
@@ -10,10 +12,10 @@ function App() {
         <Header />
         <Banner />
       </div>
-      <main>
-        <Article />
-        <Article />
-        <Article />
+      <main className="tablet:rounded-2xl p-7 m-7 max-w-2xl mx-auto bg-[#282c34]">
+        <AboutMe />
+        <Projects />
+        <Articles />
       </main>
       <Footer />
     </div>

@@ -6,7 +6,6 @@ const Footer = () => {
       <span className="mr-2 text-lg text-white font-semibold">Hecho con</span>
       <img className="h-7" src={reactSvg} alt="react logo"/>
     </footer>
-
   )
 }
 
